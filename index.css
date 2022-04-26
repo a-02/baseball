@@ -1,0 +1,63 @@
+.card {
+	display: flex;
+	flex-flow: column;
+	margin: 0px 0px 0px 0px;
+	border: 5px solid black;
+	width: 500px;
+	max-width: 500px;
+	height: 700px;
+	max-height: 700px;
+}
+
+.kitty {
+	align-self: center;
+	width: 500px;
+	max-width: 500px;
+	height: 600px;
+	max-height: 600px;
+}
+
+.bottom {
+	display: flex;
+	flex-flow: row;
+	margin: 0px 0px 0px 0px;
+	font-family: Helvetica, sans-serif;
+	width: 500px;
+	max-width: 500px;
+	height: 100px;
+	max-height: 100px;
+}
+
+.bottomleft, .bottomright {
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column;
+	flex-grow: 1;
+	margin: 0px 0px 0px 0px;
+	align-items: center;
+}
+
+.bottomleft {
+	color: white;
+	background-color: red;
+}
+
+.name {
+	font-size: 50px;
+	margin: 5px 0px 0px 0px;
+}
+
+.position {
+	font-size: 25px;
+}
+
+.bottomright {
+	justify-content: center;
+	color: red;
+	background-color: yellow;
+}
+
+.team {
+	font-size: 25px;
+}
+
