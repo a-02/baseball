@@ -1,9 +1,7 @@
 window.addEventListener('DOMContentLoaded', () => {
-
     const form = document.getElementById('form1');
     const body = document.getElementById('body');
-    var storageIndex = localStorage.length;
-
+    
     function renderCard(name, position, teamName) {
         return `
 	<div class="card">
@@ -16,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
 		      <div class="position">
 		        ${position}
 	              </div>
-		    </div>
+:		    </div>
 		    <div class="bottomright">
 		      <div class="team">
 		        ${teamName}
@@ -42,14 +40,10 @@ window.addEventListener('DOMContentLoaded', () => {
             teamName: form.team.value
         }
         localStorage.setItem(
-            storageIndex,
+            localStorage.length,
             JSON.stringify(cardObject)
         )
         event.preventDefault();
     };
-
     form.addEventListener('submit', cardSubmit);
-
-    let secret = "friend";
-
 });

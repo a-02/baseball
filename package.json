@@ -1,0 +1,23 @@
+{
+  "name": "baseball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikshalark/baseball.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikshalark/baseball/issues"
+  },
+  "homepage": "https://github.com/nikshalark/baseball#readme",
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
